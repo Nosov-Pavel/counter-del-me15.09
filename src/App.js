@@ -1,16 +1,25 @@
-import React from 'react';
+import React, {useState} from 'react';
+
+const initialCounters = [
+    {title: 'Green', count: 5},
+    {title: 'Pink', count: 50}
+    ];
 
 function App() {
-
-    const minus = () => {
-        console.log('MINUS')
-    }
+    const [counters, setCounters] = useState(initialCounters)
 
   return (
     <div>
-      <button onClick={minus}>-</button>
-      3
-      <button>+</button>
+        Counters
+
+        <ul>
+            <li><button>-</button>5<button>+</button></li>
+            <li><button>-</button>15<button>+</button></li>
+            <li><button>-</button>25<button>+</button></li>
+        </ul>
+
+
+
 
     </div>
   );
