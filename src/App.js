@@ -13,9 +13,8 @@ function App() {
         Counters
 
         <ul>
-            <li><button>-</button>5<button>+</button></li>
-            <li><button>-</button>15<button>+</button></li>
-            <li><button>-</button>25<button>+</button></li>
+            {counters.map(el => <li>{el.title} {el.count}</li>)}
+
         </ul>
 
 
