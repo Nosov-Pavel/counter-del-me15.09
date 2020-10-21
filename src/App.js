@@ -12,6 +12,7 @@ function App() {
     const deleteById = (id) => {
         console.log(id);
         const filteredCounters = counters.filter(el => el.id !== id);
+        setCounters(filteredCounters);
     };
 
 
