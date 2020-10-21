@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 
 const initialCounters = [
-    {title: 'Green', count: 5},
-    {title: 'Pink', count: 50}
+    { id: 1, title: 'Green', count: 5},
+    { id: 2, title: 'Pink', count: 50}
     ];
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
         Counters
 
         <ul>
-            {counters.map(el => <li>{el.title} {el.count}</li>)}
+            {counters.map(el => <li key={el.id}>{el.title} {el.count}</li>)}
 
         </ul>
 
