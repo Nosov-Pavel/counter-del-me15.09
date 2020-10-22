@@ -31,6 +31,8 @@ function App() {
                 </li>)}
 
             </ul>
+            <input type="text" placeholder='Counter title'/>
+            <input type="text" placeholder='Counter value'/>
 
 
         </div>
