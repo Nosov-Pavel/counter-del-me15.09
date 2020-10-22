@@ -33,6 +33,7 @@ function App() {
             </ul>
             <input type="text" placeholder='Counter title'/>
             <input type="text" placeholder='Counter value'/>
+            <button>Add counter</button>
 
 
         </div>
