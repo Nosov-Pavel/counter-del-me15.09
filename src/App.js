@@ -5,7 +5,7 @@ function App(){
 
     const [counters, setCounters] = useState(initialCounters)
     return(
-        <div>
+        <div className="App">
             {counters.map(el => <li> {el} </li>)}
 
         </div>
