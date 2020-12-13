@@ -26,7 +26,7 @@ function App() {
                     {el.count}
                     <button>+</button>
                     <button onClick={() => deleteById(el.id)}>Delete</button>
-                    <button>Up</button>
+                    <button>UP</button>
                     <button>Down</button>
                 </li>)}
 
