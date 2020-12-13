@@ -6,7 +6,7 @@ function App(){
     const [counters, setCounters] = useState(initialCounters)
     return(
         <div>
-            {counters}
+            {counters.map(el => <li> {el} </li>)}
 
         </div>
     );
