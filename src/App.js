@@ -6,7 +6,7 @@ function App(){
     const [counters,setCounters] = useState(initialCounters);
 
     const addCounter = {
-        const
+        const newCounters = [...counters]
     }
 
 
