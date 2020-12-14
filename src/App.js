@@ -5,14 +5,16 @@ function App(){
     const initialCounters = [0,0,0];
     const [counters,setCounters] = useState(initialCounters);
 
-    const addCounter = {
-        const newCounters = [...counters]
+    const addCounter = () => {
+        const newCounters = [...counters];
+        newCounters.push(0);
+        setCounters(newCounters)
     }
 
 
     return(
       <div className="App">
-          <button>Add</button>
+          <button onClick={addCounter}>Add</button>
           {counters.map(el => <li>
               <button>+</button>
               {el}
