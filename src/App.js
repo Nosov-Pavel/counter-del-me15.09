@@ -1,28 +1,16 @@
-import React, {useState} from "react";
-import './App.css';
+import React, {useState} from 'react';
+import "./App.css";
 
-function App(){
-    const initialCounters = [0,0,0];
-    const [counters,setCounters] = useState(initialCounters);
-
-    const addCounter = () => {
-        const newCounters = [...counters];
-        newCounters.push(0);
-        setCounters(newCounters)
-    }
+function App() {
+    const threeCounters = [0,0,0];
+    const [counters, setCounters] = useState(threeCounters);
 
 
-    return(
-      <div className="App">
-          <button onClick={addCounter}> Add Counter </button>
-          {counters.map(el => <li>
-              <button>+</button>
-              {el}
-              <button>-</button>
-          </li>)}
-      </div>
+    return (
+        <div className="App">
+            {counters}
 
+        </div>
     );
 }
-
 export default App;
