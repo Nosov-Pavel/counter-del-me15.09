@@ -5,10 +5,10 @@ function App() {
     const initialCounters = [0, 0, 0];
     const [counters, setCounters] = useState(initialCounters);
 
-    const intCounters = [0, 0, 0];
+    const intCounters = [1, 1, 1];
     const [counters1, setCounters1] = useState(intCounters);
 
-    const moreCounters =[0,0,0];
+    const moreCounters =[2, 2, 2];
     const [counters3, setCounters3] = useState(moreCounters);
 
     return (
