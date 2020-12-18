@@ -5,6 +5,12 @@ function App() {
     const initialCounters = [0, 0, 0];
     const [counters, setCounters] = useState(initialCounters);
 
+    const addCounter = () => {
+        const newCounters = [...counters];
+        newCounters.push(0);
+        setCounters(newCounters)
+    }
+
     const intCounters = [1, 1, 1];
     const [counters1, setCounters1] = useState(intCounters);
 
