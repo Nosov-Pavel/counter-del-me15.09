@@ -20,7 +20,11 @@ function App() {
     return (
         <div className='App'>
             <button onClick={addCounter}>AddCounter</button>
-            {counters}
+            {counters.map(el => <li>
+            <button>+</button>
+            {el}
+            <button>-</button>
+            </li>)}
             <br/>
             {counters1}
             <br/>
