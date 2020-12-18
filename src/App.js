@@ -32,7 +32,12 @@ function App() {
                 <button>-</button>
             </li>)}
             <br/>
-            {counters1}
+            <button onClick={addCounter1}>AddCounter1</button>
+            {counters1.map(el => <li>
+                <button>+</button>
+                {el}
+                <button>-</button>
+            </li>)}
             <br/>
             {counters3}
         </div>
