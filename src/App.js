@@ -21,7 +21,13 @@ function App() {
     }
 
     const moreCounters = [2, 2, 2];
-    const [counters3, setCounters3] = useState(moreCounters);
+    const [counters2, setCounters2] = useState(moreCounters);
+
+    const addCounter2 = () => {
+        const newCounters2 = [...counters2];
+        newCounters2.push(2);
+        setCounters2(newCounters2)
+    }
 
     return (
         <div className='App'>
@@ -39,7 +45,7 @@ function App() {
                 <button>-</button>
             </li>)}
             <br/>
-            {counters3}
+            {counters2}
         </div>
     );
 }
