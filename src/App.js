@@ -19,6 +19,7 @@ function App() {
 
     return (
         <div className='App'>
+            <button onClick={addCounter}>AddCounter</button>
             {counters}
             <br/>
             {counters1}
