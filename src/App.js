@@ -14,16 +14,22 @@ function App() {
     const intCounters = [1, 1, 1];
     const [counters1, setCounters1] = useState(intCounters);
 
-    const moreCounters =[2, 2, 2];
+    const addCounter1 = () => {
+        const newCounters1 = [...counters1];
+        newCounters1.push(1);
+        setCounters1(newCounters1)
+    }
+
+    const moreCounters = [2, 2, 2];
     const [counters3, setCounters3] = useState(moreCounters);
 
     return (
         <div className='App'>
             <button onClick={addCounter}>AddCounter</button>
             {counters.map(el => <li>
-            <button>+</button>
-            {el}
-            <button>-</button>
+                <button>+</button>
+                {el}
+                <button>-</button>
             </li>)}
             <br/>
             {counters1}
