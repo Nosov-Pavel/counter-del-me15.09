@@ -62,7 +62,11 @@ function App() {
                 {el}
                 <button>-</button>
             </li>)}
-            <button>AddCounter3</button>
+            <br/>
+            <button onClick={addCounter3}>AddCounter3</button>
+            {couters3.map(el => <li>
+                <button>+</button>
+            </li>)}
         </div>
     );
 }
