@@ -29,6 +29,11 @@ function App() {
         setCounters2(newCounters2)
     }
 
+    const moreCounters3 = [3, 3, 3];
+    const [couters3, setCounters3] =useState(moreCounters3)
+
+
+
     return (
         <div className='App'>
             <button onClick={addCounter}>AddCounter</button>
