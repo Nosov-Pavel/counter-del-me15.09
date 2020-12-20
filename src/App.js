@@ -30,7 +30,11 @@ function App() {
     }
 
     const moreCounters3 = [3, 3, 3];
-    const [couters3, setCounters3] =useState(moreCounters3)
+    const [couters3, setCounters3] =useState(moreCounters3);
+
+    const addCounter3 = () => {
+        const newCounter3 = [...moreCounters3];
+    }
 
 
 
