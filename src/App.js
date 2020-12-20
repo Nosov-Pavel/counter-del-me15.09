@@ -35,7 +35,7 @@ function App() {
     const addCounter3 = () => {
         const newCounter3 = [...moreCounters3];
         newCounter3.push(3);
-        setCounters3()
+        setCounters3(newCounter3)
     }
 
 
@@ -62,6 +62,7 @@ function App() {
                 {el}
                 <button>-</button>
             </li>)}
+            <button>AddCounter3</button>
         </div>
     );
 }
