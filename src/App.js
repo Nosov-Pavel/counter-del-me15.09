@@ -78,6 +78,8 @@ function App() {
                 {el}
                 <button>-</button>
             </li>)}
+            <br/>
+            <button>AddCounter4</button>
         </div>
     );
 }
