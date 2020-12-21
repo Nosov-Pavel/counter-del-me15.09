@@ -38,8 +38,14 @@ function App() {
         setCounters3(newCounter3)
     }
 
-    const counters4 = [4, 4, 4];
-    const [counters4,]
+    const moreCounters4 = [4, 4, 4];
+    const [counters4, setCounters4] = useState(moreCounters4);
+
+    const addCounter4 = () => {
+        const newCounter4 = [...moreCounters4];
+        newCounter4.push(4);
+        setCounters4(newCounter4)
+    }
 
 
 
