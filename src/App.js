@@ -38,6 +38,9 @@ function App() {
         setCounters3(newCounter3)
     }
 
+    const counters4 = [4, 4, 4];
+    const [counters4,]
+
 
 
     return (
