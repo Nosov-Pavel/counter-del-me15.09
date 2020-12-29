@@ -47,7 +47,9 @@ function App() {
         setCounters4(newCounter4)
     }
     const  moreCounters5 = [5, 5, 5];
-    const [counters5, setCounters5] = useState()
+    const [counters5, setCounters5] = useState(moreCounters5);
+
+
 
 
 
