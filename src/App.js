@@ -49,6 +49,10 @@ function App() {
     const  moreCounters5 = [5, 5, 5];
     const [counters5, setCounters5] = useState(moreCounters5);
 
+    const addCounter5 = () => {
+        const newCounter5 = [...moreCounters5];
+    }
+
 
 
 
