@@ -51,6 +51,8 @@ function App() {
 
     const addCounter5 = () => {
         const newCounter5 = [...moreCounters5];
+        newCounter5.push(5);
+        setCounters5(newCounter5)
     }
 
 
