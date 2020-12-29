@@ -95,6 +95,10 @@ function App() {
                 {el}
                 <button>-</button>
             </li>)}
+            <br/>
+            <li>
+                <button>AddCounter5</button>
+            </li>
         </div>
     );
 }
