@@ -97,7 +97,7 @@ function App() {
             </li>)}
             <br/>
             <li>
-                <button>AddCounter5</button>
+                <button onChange={addCounter5}>AddCounter5</button>
             </li>
         </div>
     );
