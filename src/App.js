@@ -98,6 +98,8 @@ function App() {
             <br/>
             <li>
                 <button onChange={addCounter5}>AddCounter5</button>
+                {counter5.map(el => <li>
+                    <button)}
             </li>
         </div>
     );
