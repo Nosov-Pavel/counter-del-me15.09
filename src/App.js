@@ -57,8 +57,6 @@ function App() {
 
 
 
-
-
     return (
         <div className='App'>
             <button onClick={addCounter}>AddCounter</button>
@@ -96,13 +94,11 @@ function App() {
                 <button>-</button>
             </li>)}
             <br/>
-            <li>
+
                 <button onChange={addCounter5}>AddCounter5</button>
                 {counter5.map(el => <li>
-                    <button>+</button>
-                    {el}
-                    <button>-</button>)}
-            </li>
+
+                </li>
         </div>
     );
 }
