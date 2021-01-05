@@ -94,11 +94,12 @@ function App() {
                 <button>-</button>
             </li>)}
             <br/>
-
                 <button onChange={addCounter5}>AddCounter5</button>
-                {counter5.map(el => <li>
-
-                </li>
+                { counters5.map(el => <li>
+                    <button>+</button>
+                    {el}
+                    <button>-</button>
+                </li>)}
         </div>
     );
 }
