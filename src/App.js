@@ -69,7 +69,7 @@ function App() {
                 <button>+</button>
                 {el}
                 <button>-</button>
-                <button onClick={}>Delete</button>
+                <button onClick={() => deleteCounter(i)}>Delete</button>
             </li>)}
             <br/>
             <button onClick={addCounter1}>AddCounter1</button>
