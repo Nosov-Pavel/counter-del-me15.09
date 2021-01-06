@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import "./App.css"
 
 function App() {
+
     const initialCounters = [0, 0, 0];
     const [counters, setCounters] = useState(initialCounters);
 
@@ -59,6 +60,7 @@ function App() {
 
     return (
         <div className='App'>
+            <button>Delete</button>
             <button onClick={addCounter}>AddCounter</button>
             {counters.map(el => <li>
                 <button>+</button>
