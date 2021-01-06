@@ -11,6 +11,9 @@ function App() {
         newCounters.push(0);
         setCounters(newCounters)
     }
+    const deleteCounter = () => {
+         const newCounter = counters.filter((el, ))
+    }
 
     const intCounters = [1, 1, 1];
     const [counters1, setCounters1] = useState(intCounters);
@@ -60,8 +63,8 @@ function App() {
 
     return (
         <div className='App'>
-            <button>Delete</button>
             <button onClick={addCounter}>AddCounter</button>
+            <button>Delete</button>
             {counters.map(el => <li>
                 <button>+</button>
                 {el}
