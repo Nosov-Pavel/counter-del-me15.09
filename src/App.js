@@ -65,11 +65,11 @@ function App() {
     return (
         <div className='App'>
             <button onClick={addCounter}>AddCounter</button>
-            <button>Delete</button>
-            {counters.map(el => <li>
+            {counters.map((el, i) => <li>
                 <button>+</button>
                 {el}
                 <button>-</button>
+                <button onClick={}>Delete</button>
             </li>)}
             <br/>
             <button onClick={addCounter1}>AddCounter1</button>
