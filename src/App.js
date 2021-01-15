@@ -101,7 +101,7 @@ function App() {
             </li>)}
             <br/>
             <button onChange={addCounter4}>AddCounter4</button>
-            {counters4.map(el => <li>
+            {counters4.map((el, i) => <li>
                 <button>+</button>
                 {el}
                 <button>-</button>
