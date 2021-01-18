@@ -39,6 +39,10 @@ function App() {
         newCounters2.push(2);
         setCounters2(newCounters2)
     }
+    const deleCounter2 = (index2) => {
+        const newCounter2 = counters2.filter((el, i) => i !== index2)
+        setCounters2(newCounter2)
+    }
 
     const moreCounters3 = [3, 3, 3];
     const [couters3, setCounters3] = useState(moreCounters3);
