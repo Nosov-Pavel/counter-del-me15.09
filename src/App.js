@@ -51,6 +51,8 @@ function App() {
         setCounters3(newCounter3)
     }
     const deleteCounter3 = (index3) => {
+        const newCounter3 = couters3.filter((el, i) => i !== index3)
+        setCounters3(newCounter3)
 
     }
 
