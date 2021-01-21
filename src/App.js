@@ -29,8 +29,6 @@ function App() {
         setCounters1(newCounter1)
     }
 
-
-
     const moreCounters = [2, 2, 2];
     const [counters2, setCounters2] = useState(moreCounters);
 
@@ -51,6 +49,9 @@ function App() {
         const newCounter3 = [...moreCounters3];
         newCounter3.push(3);
         setCounters3(newCounter3)
+    }
+    const deleteCounter3 = (index3) => {
+
     }
 
     const moreCounters4 = [4, 4, 4];
