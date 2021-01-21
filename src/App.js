@@ -103,6 +103,7 @@ function App() {
                 <button>+</button>
                 {el}
                 <button>-</button>
+                <button>Delete</button>
             </li>)}
             <br/>
             <button onChange={addCounter4}>AddCounter4</button>
