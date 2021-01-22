@@ -64,6 +64,7 @@ function App() {
         setCounters4(newCounter4)
     }
     const deleteCounter4 = (index4) => {
+        const newCounter4 = counters4.filter((el, i) => i !== index4)
 
     }
     const  moreCounters5 = [5, 5, 5];
