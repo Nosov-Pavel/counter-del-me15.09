@@ -118,7 +118,7 @@ function App() {
                 <button>+</button>
                 {el}
                 <button>-</button>
-                <button>Delete</button>
+                <button onClick={() => deleteCounter4(i)}>Delete</button>
             </li>)}
             <br/>
                 <button onChange={addCounter5}>AddCounter5</button>
