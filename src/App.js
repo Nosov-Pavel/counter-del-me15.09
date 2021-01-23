@@ -72,9 +72,9 @@ function App() {
     const [counters5, setCounters5] = useState(moreCounters5);
 
     const addCounter5 = () => {
-        const newCounter5 = [...counters5];
-        newCounter5.push(5);
-        setCounters5(newCounter5)
+        const newCounters5 = [...counters5];
+        newCounters5.push(5);
+        setCounters5(newCounters5)
     }
 
 
@@ -121,7 +121,7 @@ function App() {
                 <button onClick={() => deleteCounter4(i)}>Delete</button>
             </li>)}
             <br/>
-                <button onChange={addCounter5}>AddCounter5</button>
+                <button onClick={addCounter5}>AddCounter5</button>
                 { counters5.map((el,i) => <li>
                     <button>+</button>
                     {el}
