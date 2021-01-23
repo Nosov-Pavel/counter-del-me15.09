@@ -29,8 +29,8 @@ function App() {
         setCounters1(newCounter1)
     }
 
-    const moreCounters = [2, 2, 2];
-    const [counters2, setCounters2] = useState(moreCounters);
+    const moreCounters2 = [2, 2, 2];
+    const [counters2, setCounters2] = useState(moreCounters2);
 
     const addCounter2 = () => {
         const newCounters2 = [...counters2];
