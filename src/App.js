@@ -59,7 +59,7 @@ function App() {
     const [counters4, setCounters4] = useState(moreCounters4);
 
     const addCounter4 = () => {
-        const newCounter4 = [...moreCounters4];
+        const newCounter4 = [...counters4];
         newCounter4.push(4);
         setCounters4(newCounter4)
     }
