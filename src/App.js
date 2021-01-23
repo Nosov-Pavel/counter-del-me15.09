@@ -51,7 +51,7 @@ function App() {
         setCounters3(newCounter3)
     }
     const deleteCounter3 = (index3) => {
-        const newCounter3 = couters3.filter((el, i) => i !== index3)
+        const newCounter3 = counters3.filter((el, i) => i !== index3)
         setCounters3(newCounter3)
     }
 
@@ -106,7 +106,7 @@ function App() {
             </li>)}
             <br/>
             <button onClick={addCounter3}>AddCounter3</button>
-            {couters3.map((el, i) => <li>
+            {counters3.map((el, i) => <li>
                 <button>+</button>
                 {el}
                 <button>-</button>
