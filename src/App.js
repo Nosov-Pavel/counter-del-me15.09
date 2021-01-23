@@ -25,7 +25,7 @@ function App() {
         setCounters1(newCounters1)
     }
     const deleteCounter1 = (index1) => {
-        const newCounter1 = counters.filter((el, i) => i !== index1)
+        const newCounter1 = counters1.filter((el, i) => i !== index1)
         setCounters1(newCounter1)
     }
 
