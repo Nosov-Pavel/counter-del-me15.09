@@ -113,7 +113,7 @@ function App() {
                 <button onClick={() => deleteCounter3(i)}>Delete</button>
             </li>)}
             <br/>
-            <button onChange={addCounter4}>AddCounter4</button>
+            <button onClick={addCounter4}>AddCounter4</button>
             {counters4.map((el, i) => <li>
                 <button>+</button>
                 {el}
