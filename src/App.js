@@ -59,9 +59,9 @@ function App() {
     const [counters4, setCounters4] = useState(moreCounters4);
 
     const addCounter4 = () => {
-        const newCounter4 = [...counters4];
-        newCounter4.push(4);
-        setCounters4(newCounter4)
+        const newCounters4 = [...counters4];
+        newCounters4.push(4);
+        setCounters4(newCounters4)
     }
     const deleteCounter4 = (index4) => {
         const newCounter4 = counters4.filter((el, i) => i !== index4)
