@@ -46,9 +46,9 @@ function App() {
     const [counters3, setCounters3] = useState(moreCounters3);
 
     const addCounter3 = () => {
-        const newCounter3 = [...moreCounters3];
-        newCounter3.push(3);
-        setCounters3(newCounter3)
+        const newCounters3 = [...counters3];
+        newCounters3.push(3);
+        setCounters3(newCounters3)
     }
     const deleteCounter3 = (index3) => {
         const newCounter3 = counters3.filter((el, i) => i !== index3)
