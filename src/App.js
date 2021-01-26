@@ -131,6 +131,7 @@ function App() {
                     <button>+</button>
                     {el}
                     <button>-</button>
+                    <button>Delete</button>
                 </li>)}
         </div>
     );
