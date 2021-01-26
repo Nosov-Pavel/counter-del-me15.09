@@ -76,7 +76,9 @@ function App() {
         newCounters5.push(5);
         setCounters5(newCounters5)
     }
-    const deleteCounter5 = (index5) =>
+    const deleteCounter5 = (index5) => {
+        const newCounter5 = counters5.filter((el, i) => i !== index5)
+    }
 
 
 
