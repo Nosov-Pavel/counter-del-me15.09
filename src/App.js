@@ -82,7 +82,11 @@ function App() {
     }
 
     const moreCountes6 = [6,6,6];
-    const [counters6, setCounters6] = useState(moreCountes6)
+    const [counters6, setCounters6] = useState(moreCountes6);
+
+    const addCounter6 = () => {
+        const newCounters6 = [...counters6];
+    }
 
 
 
