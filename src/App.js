@@ -86,6 +86,8 @@ function App() {
 
     const addCounter6 = () => {
         const newCounters6 = [...counters6];
+        newCounters6.push(6);
+        setCounters6(newCounters6)
     }
 
 
