@@ -90,8 +90,7 @@ function App() {
         setCounters6(newCounters6)
     }
     const deleCounter6 = (index6) => {
-        const
-    }
+        const }
 
 
 
